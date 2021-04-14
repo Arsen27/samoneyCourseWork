@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navDashboard"
+        android:title="@string/menu_dashboard"
+        android:icon="@drawable/ic_dashboard"/>
+
+    <item
+        android:iconTint="@color/white"
+        android:id="@+id/navBills"
+        android:title="@string/menu_bills"
+        android:icon="@drawable/ic_wallet"/>
+
+    <item
+        android:enabled="false"
+        android:id="@+id/navsdfsdf"
+        android:title="" />
+
+    <item
+        android:id="@+id/navOperations"
+        android:title="@string/menu_operations"
+        android:icon="@drawable/ic_operations"/>
+
+    <item
+        android:id="@+id/navLimits"
+        android:title="@string/menu_limits"
+        android:icon="@drawable/ic_limit"/>
+</menu>

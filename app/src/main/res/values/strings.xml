@@ -1,0 +1,15 @@
+<resources>
+    <string-array name="bill_type_array">
+        <item>Simple</item>
+        <item>Credit</item>
+        <item>Goal</item>
+    </string-array>
+
+    <string name="app_name">Samoney</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_bills">Bills</string>
+    <string name="menu_operations">Operations</string>
+    <string name="menu_limits">Limits</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

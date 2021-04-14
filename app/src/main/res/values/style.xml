@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="card" parent="CardView">
+        <item name="android:background">@color/purple_500</item>
+    </style>
+
+    <style name="text" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="number" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="input" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/teal_200</item>
+        <item name="android:textColorHint">@color/grey_200</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/purple_500</item>
+        <item name="android:colorBackground">@color/purple_500</item>
+    </style>
+
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- changes the background of the Toolbar's popup -->
+    </style>
+
+</resources>
